@@ -8,11 +8,17 @@ The dataset which is used is mnist dataset.
 ![image](https://github.com/Adithya-Siddam/convolutional-denoising-autoencoder/assets/93427248/0d7e3372-6a27-4ee7-bb17-fe173ebc97ca)
 ## DESIGN STEPS
 **Step 1:** Import the necessary libraries and dataset.
+
 **Step 2:** Load the dataset and scale the values for easier computation.
+
 **Step 3:** Add noise to the images randomly for both the train and test sets.
+
 **Step 4:** Build the Neural Model using Convolutional Layer, Pooling Layer, Up Sampling Layer. 
+
 **Step 5:** Make sure the input shape and output shape of the model are identical.
+
 **Step 6:** Pass test data for validating manually.
+
 **Step 7:** Plot the predictions for visualization.
 ## PROGRAM
 ```
