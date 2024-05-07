@@ -1,34 +1,24 @@
 # Convolutional Autoencoder for Image Denoising
-
 ## AIM
-
 To develop a convolutional autoencoder for image denoising application.
-
 ## Problem Statement and Dataset
-
 ## Convolution Autoencoder Network Model
-
 Using autoencoder, we are trying to remove the noise added in the encoder part and tend to get the output which should be same as the input with minimal loss. 
 The dataset which is used is mnist dataset.
-
 ![image](https://github.com/Adithya-Siddam/convolutional-denoising-autoencoder/assets/93427248/0d7e3372-6a27-4ee7-bb17-fe173ebc97ca)
-
 ## DESIGN STEPS
 **Step 1:** Import the necessary libraries and dataset.
-
 **Step 2:** Load the dataset and scale the values for easier computation.
-
 **Step 3:** Add noise to the images randomly for both the train and test sets.
-
 **Step 4:** Build the Neural Model using Convolutional Layer, Pooling Layer, Up Sampling Layer. 
-
 **Step 5:** Make sure the input shape and output shape of the model are identical.
-
 **Step 6:** Pass test data for validating manually.
-
 **Step 7:** Plot the predictions for visualization.
-
 ## PROGRAM
+```
+Name: S Adithya Chowdary.
+Reg. NO: 212221230100.
+```
 ```python
 from tensorflow import keras
 from tensorflow.keras import layers
